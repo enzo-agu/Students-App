@@ -1,0 +1,19 @@
+<table class="table table-bordered table-striped-columns">
+  <thead>
+    <tr>
+      <th (click)="orderStudentByNames()" ngClass="tableHeader">Name</th>
+      <th ngClass="tableHeader">Roll Number</th>
+      <th ngClass="tableHeader">Standard</th>
+      <th ngClass="tableHeader">Gender</th>
+      <th *ngIf="columnAge" ngClass="tableHeader">Age</th>
+    </tr>
+  </thead>
+  <tr class="table-striped-columns" *ngFor="let student of students">
+    <td>{{ student.name }}</td>
+    <td>{{ student.rollNumber }}</td>
+    <td>{{ student.standard }}</td>
+    <td>{{ student.gender }}</td>
+    <td *ngIf="columnAge">{{student.age}}</td>
+
+  </tr>
+</table>

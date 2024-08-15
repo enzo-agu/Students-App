@@ -1,0 +1,33 @@
+{
+  "students": [
+    {
+      "name": "John",
+      "standard": "Primary",
+      "gender": "Male",
+      "rollNumber": 10,
+      "age": 10
+
+    },
+    {
+      "name": "Maria",
+      "standard": "Primary",
+      "gender": "Female",
+      "rollNumber": 18,
+      "age": 9
+    },
+    {
+      "name": "Martin",
+      "standard": "Secondary",
+      "gender": "Male",
+      "rollNumber": 33,
+      "age": 16
+    },
+    {
+      "name": "Ana",
+      "standard": "Secondary",
+      "gender": "Female",
+      "rollNumber": 30,
+      "age": 17
+    }
+  ]
+}
